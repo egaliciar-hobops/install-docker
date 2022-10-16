@@ -4,4 +4,4 @@ sudo dnf remove docker docker-client docker-client-latest docker-common docker-l
 sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
- sudo systemctl start docker
+sudo systemctl start docker
