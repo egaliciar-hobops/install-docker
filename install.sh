@@ -1,4 +1,6 @@
 #!/bin/bash
+# You can install docker in ubuntu 22.04 LST
+
 
 sudo apt-get update -y
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
